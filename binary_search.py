@@ -17,16 +17,8 @@ if binary_search(array,0,len(array)-1,element_to_search)==-1:
     print("Element is not in array")
 else:
     print("Element is in array and is at",binary_search(array,0,len(array)-1,element_to_search))
+     
         
-# left_array_elements=[element for element in array if element< array[middle_Value_position] ]
-# right_array_elements=[element for element in array if element> array[middle_Value_position] ]
-# if array[middle_Value_position]>x:
-# return binary_search(right_array_elements,middle_Value_position+1,end,element_to_search)
-# if array[middle_Value_position]<x:
-# return binary_search(left_array_elements,0,middle_Value_position+1,element_to_search)        
-        
-                
-
 # def sort_array_elements(a):
 #     """bubble sort
 #         This function will sort the array elements in ascending order
